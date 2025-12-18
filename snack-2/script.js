@@ -6,3 +6,7 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+people.forEach(peopleEL => { //uso sempre foreach ma usando la prop .name
+  console.log(peopleEL.name);
+});
