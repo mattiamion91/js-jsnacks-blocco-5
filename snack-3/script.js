@@ -7,7 +7,7 @@ const numbers = [2, 8, 4, 7, 2, 87];
 
 const numbersPlusOne = numbers.map((numEl) => { //uso il metodo map e ritorno il numero copiato + 1 
     
-    return (numEl + 1);
+    return numEl + 1;
 
 })
 
