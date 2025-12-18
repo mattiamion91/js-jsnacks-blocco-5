@@ -21,3 +21,11 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+const classML = students.find((studentEl) => { //quello che conosco é il nome dello studente "marco lanci", quindi uso il metodo find per trovare quell'elemento
+  const studML = studentEl.name === 'Marco Lanci'
+  return studML
+})
+
+console.log(classML.class); //stampo in consol solo la classe dell'elemento trovato
+//console.log(classML);
